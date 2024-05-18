@@ -1,7 +1,7 @@
 _base_ = ['coco_transformer.py']
 
-# num_classes=91
-num_classes=2
+num_classes=91
+# num_classes=2
 
 lr = 0.0001
 param_dict_type = 'default'
