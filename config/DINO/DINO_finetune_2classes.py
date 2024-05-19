@@ -1,7 +1,7 @@
 _base_ = ['coco_transformer.py']
 
-num_classes=91
-# num_classes=2
+# num_classes=91
+num_classes=2
 
 lr = 0.0001
 param_dict_type = 'default'
@@ -69,8 +69,8 @@ two_stage_class_embed_share = False
 two_stage_learn_wh = False
 two_stage_default_hw = 0.05
 two_stage_keep_all_tokens = False
-num_select = 300
-# num_select = 900
+# num_select = 300
+num_select = 900
 transformer_activation = 'relu'
 batch_norm_type = 'FrozenBatchNorm2d'
 masks = False
